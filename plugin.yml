@@ -1,0 +1,14 @@
+name: Warps
+main: zaxelmb\warps\Loader
+api: 5.0.0
+version: 0.0.1
+description: "Warps Plugin support of API 5"
+author: zAxelMB
+
+permissions:
+  warp.command:
+    default: true
+    description: "Open the warps menu"
+  warp.manage:
+    default: op
+    description: "manage warps: (add, remove, list and help)"
