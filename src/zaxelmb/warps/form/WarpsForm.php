@@ -20,10 +20,6 @@ class WarpsForm {
             }
             
             $warps = $this->loader->getWarpManager()->getAllWarps();
-            if($warps === null) {
-              $player->sendMessage("§cThere are no warps.");
-              return;
-            }
             $warpNames = array_keys($warps);
             $warpName = $warpNames[$data];
             $warp = $this->loader->getWarpManager()->getWarp($warpName);
